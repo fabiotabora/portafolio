@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	--color-azul:#175adb;
+	--color-amarillo:#DBCCAD;
+	--color-oscuro:#001027;
+}
+
+@font-face {
+      font-family: "Catellos Medium";
+      src: url("../fonts/Catellos Medium.ttf") format('truetype'),
+    }
+
+body {
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+
+header img {
+	width: 80px;
+}
+
+
+#hero {
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+}
+
+.parallax {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/hero.png");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/hero.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/hero.png");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titles-white{
+	font-size: 60px;
+	margin: 30px 0px;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-family: "Catellos Medium";
+}
+
+.titles-black{
+	font-size: 60px;
+	margin: 30px 0px;
+	font-weight: 400;
+	color: #000;
+	font-family: "Catellos Medium";
+}
+
+#hero h2{
+	font-size: 25px;
+	margin: 20px 0px;
+	font-weight: 300;
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	transition:  all 0.2s ease-in-out;
+}
+
+a:hover {
+	color: var(--color-amarillo);
+	transition: all 0.2s ease-in-out;
+}
+
+#info {
+	padding: 500px 0px;
+	background-color: var(--color-azul);
+}
+
+#info h1, h2, p {
+	text-align: center;
+	padding-top: 30px;
+	color: #000;
+}
+
+#info h1 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+#info h2 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#info i {
+	text-align: center;
+	font-size: 48px;
+	color: var(--color-amarillo)
+}
+
+#services {
+	background-color: rgba(220,220,220,1.00);
+	padding: 500px 0;
+	
+}
+
+#services i {
+	font-size: 64px;
+	text-align: center;
+	padding: 10px 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+}
+
+#recent {
+	background-color: var(--color-azul);
+	padding: 200px;
+	background-image: url("../img/hand.png");
+	background-position: bottom center;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+
+#recent h1 {
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 30px;
+	color: #000;
+	
+}
+
+#recent h2 {
+	text-align: center;
+	padding-top: 30px;
+	color: #000;
+}
+
+#recent img {
+	padding: 30px 0px;
+	filter: grayscale(1);
+	transition: all 1s ease-in-out;
+}
+
+#recent img:hover{
+	filter: saturate(1);
+	transform: scale(1.1);
+	transition: all 1s ease-in-out;
+}
+
+#hero2{
+	text-align: center; 
+	padding: 400px 0px;	
+	background-position: bottom center;
+	background-color: var(--color-amarillo);
+	background-repeat: no-repeat;
+	font-family: "Catellos Medium";
+
+}
+
+.img{
+	float: right;
+    width:  550px;
+    height: 500px;
+    object-fit: cover;
+	
+}
+
+.parallax2{
+	background-image: -webkit-url("../img/hero2.png");
+	background-image: -o-url("../img/hero2.png");
+	background-image: url("../img/hero2.png");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#curriculum {
+	padding: 200px 0px;
+	background-color: #DBCCAD;
+}
+
+#curriculum h2 {
+	text-align: left;
+}
+
+#curriculum p{
+	text-align: left;
+}
+
+#hero3 {
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+
+.parallax3{
+	background-image: -webkit-url("../img/brain.png");
+	background-image: -o-url("../img/brain.png");
+	background-image: url("../img/brain.png");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#categorias {
+	background-color: var(--color-oscuro);
+	padding: 200px 0;
+}
+
+#categorias img {
+	padding: 30px 0px;
+	filter: grayscale(1);
+	transition: all 1s ease-in-out;
+}
+
+#categorias img:hover{
+	filter: saturate(1);
+	transform: scale(1.1);
+	transition: all 1s ease-in-out;
+}
+
+.subtitles-black {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.subtitles-white {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+#title{
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+
+.parallax4 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroazul.png");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroazul.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroazul.png");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texts {
+	font-size: 14px;
+	color: #FFF;
+	text-align: left;	
+}
+
+#galeria {
+	
+	background-color: var(--color-oscuro);
+	padding-top: 100px;	
+}
+
+#galeria img:hover {
+	filter: saturate(1);
+	transition: all 1s ease-in-out;
+}
+
+#galeria img {
+	padding: 30px;
+	filter: grayscale(1);
+	transition: all 1s ease-in-out;
+}
+
+footer {
+	padding: 100px 0px;
+	background-color: #000000;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+#otros {
+	padding: 200px 0px;
+	background-color: #DBCCAD;
+}
+
+#otros h2 {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	color: #FFF;
+}
+
+#title2{
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+
+.parallax5 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/portadaanimacion.jpeg");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(("../img/portadaanimacion.jpeg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(("../img/portadaanimacion.jpeg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title3{
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+
+.parallax6 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/fondofoto.jpg");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/fondofoto.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/fondofoto.jpg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title4{
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+
+.parallax7 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroconcepto1.png");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroconcepto1.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/libroconcepto1.jpeg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero4 {
+	text-align: center; 
+	padding: 400px 0px;	
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+}
+
+#hero4 h2{
+	font-size: 25px;
+	margin: 20px 0px;
+	font-weight: 300;
+	color: #FFF;
+}
+
+.parallax8 {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/hero4.png");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/hero4.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/hero4.png");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-contact i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: var(--color-verde);
+	color: #FFF;
+	border-radius: 100%;
+	
+}
+
+.list-contact li {
+	margin-bottom: 20px;
+}
+
+#map {
+	padding-bottom: 50px;
+}
+
+#contact p{
+	text-align: left;
+}
+
+footer img {
+	width: 100px;
+}
+
+footer a {
+	text-align: center;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FFF;
+}
+
+footer li a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+footer li a:hover {
+	color: #FFF;
+}
